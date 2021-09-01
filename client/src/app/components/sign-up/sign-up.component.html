@@ -1,0 +1,54 @@
+<app-navigation></app-navigation>
+
+<div class="row">
+    <div class="col-md-4 offset-md-4">
+        <div class="card mt-4">
+            <div class="card-header text-center">
+                <h3>Registrate</h3>
+            </div>
+            <div class="card-body">
+                <form action="/signup" method="POST">
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Apellido Paterno:</label>
+                        <input type="text" name="APaterno" [(ngModel)]="user.vch_userpaterno" placeholder="Inserte Apellido Paterno" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Apellido Materno:</label>
+                        <input type="text" name="AMaterno" [(ngModel)]="user.vch_usermaterno" placeholder="Inserte Apellido Materno" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Nombre:</label>
+                        <input type="text" name="nombre" [(ngModel)]="user.vch_usernombre" placeholder="Inserte Nombre" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Ciudad:</label>
+                        <input type="text" name="ciudad" [(ngModel)]="user.vch_userciudad" placeholder="Inserte Ciudad" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Direccion:</label>
+                        <input type="text" name="direccion" [(ngModel)]="user.vch_userdireccion" placeholder="Inserte Direccion" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Telefono:</label>
+                        <input type="text" name="telefono" [(ngModel)]="user.vch_usertelefono" placeholder="Inserte Telefono" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Correo:</label>
+                        <input type="email" name="username" [(ngModel)]="user.vch_userusuario" placeholder="Inserte Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Ingrese Contraseña:</label>
+                        <input type="password" name="password" placeholder="Inserte Contraseña" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Confirme Contraseña:</label>
+                        <input type="password" name="confirmPassword" [(ngModel)]="user.vch_userclave" placeholder="Confirme Contraseña" class="form-control">
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block mt-4" (click)="registrer()">
+                        Registrar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

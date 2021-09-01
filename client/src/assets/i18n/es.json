@@ -1,0 +1,41 @@
+{
+  "NAVIGATION": {
+    "IDIOMA": "Idioma",
+    "WELLCOME": "Bienvenido",
+    "INICIO": "Inicio",
+    "INGRESAR": "Ingresar",
+    "PERFIL": "Perfil",
+    "REGISTRARSE": "Registrarse",
+    "SALIR": "Salir"
+  },
+  "WELLCOME": {
+    "SUBTITTLE": "Los videojuegos al alcance de tus manos!",
+    "INGRESAR": "Ingresar",
+    "REGISTRARSE": "Registrarse",
+    "CONOCE_COMUNIDAD": "Conoce a la Comunidad!",
+    "CONOCE_COMUNIDAD_SUB": "Divierte conociendo y compartiendo videojuegos y conociendo amigos.",
+    "PRESENTACION": "Es una comunidad para todos aquellos aficionados a los videojuegos y las videoconsolas. Cada jugador puede crear un perfil y controla a su manera sus amigos, su catálogo de videojuegos, las máquinas con las que juega, etc. Además, esta nueva red social permite valorar cada juego, así como conocer las opiniones del resto de integrantes de la comunidad.",
+    "SHOOTER": "Disparos",
+    "AVENTURA": "Aventura",
+    "COOPERATIVO": "Cooperativo",
+    "MUSICAL": "Musical",
+    "RED_SOCIAL": "En realidad, aparte de ser una red social, se trata de una herramienta alimentada en parte por los propios usuarios, a la que acceder en caso de necesitar una opinión sobre videojuegos. Nos gusta expresar a nuestros usuarios la idea de 'Tus opiniones son el factor más importante de la comunidad'.",
+    "EXPRESATE": "Expresate!",
+    "EXPRESATE_SUB": "Se tu mismo compartiendo y divulgando tus gustos."
+  },
+  "FOOTER": {
+    "COMPARTIR": "¡Compartelo en tus redes sociales!",
+    "COMPANY": "MAG (My Amazing Games) es pensada como una red social en cual puedas agregar y compartir tus juegos favoritos, para que ninguno de tus amigos se pierda de tus videojuegos que más juegas.",
+    "SHOOTER": "Disparos",
+    "AVENTURA": "Aventura",
+    "COOPERATIVO": "Cooperativo",
+    "MUSICAL": "Musical",
+    "ENLACES": "Enlaces útiles",
+    "CUENTA": "Tu Cuenta",
+    "REGISTRATE": "Registrarse",
+    "PRINCIPAL": "Principal",
+    "AYUDA": "Ayuda",
+    "CONTACTO": "Contacto",
+    "GRUPO": "Grupo 4"
+  }
+}

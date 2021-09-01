@@ -1,0 +1,41 @@
+{
+  "NAVIGATION": {
+    "IDIOMA": "Language",
+    "WELLCOME": "welcome",
+    "INICIO": "Home",
+    "INGRESAR": "Sign In",
+    "PERFIL": "Profile",
+    "REGISTRARSE": "Sign Up",
+    "SALIR": "Log Out"
+  },
+  "WELLCOME": {
+    "SUBTITTLE": "Video games at your fingertips!",
+    "INGRESAR": "Sign in",
+    "REGISTRARSE": "Sign Up",
+    "CONOCE_COMUNIDAD": "Meet the Community!",
+    "CONOCE_COMUNIDAD_SUB": "Have fun meeting and sharing video games and meeting friends.",
+    "PRESENTACION": "It is a community for all those fans of video games and video consoles. Each player can create a profile and control their friends, their video game catalog, the machines they play with, etc. in their own way. In addition, this new social network allows each game to be valued, as well as to know the opinions of the rest of the members of the community.",
+    "SHOOTER": "Shooters",
+    "AVENTURA": "Adventure",
+    "COOPERATIVO": "Cooperative",
+    "MUSICAL": "Musical",
+    "RED_SOCIAL": "In reality, apart from being a social network, it is a tool fed in part by the users themselves, which they can access if they need an opinion on video games. We like to express to our users the idea of 'Your opinions are the most important factor in the community'.",
+    "EXPRESATE": "Express yourself!",
+    "EXPRESATE_SUB": "Be yourself by sharing and spreading your likes."
+  },
+  "FOOTER": {
+    "COMPARTIR": "Share on your social networks!",
+    "COMPANY": "MAG (My Amazing Games) is designed as a social network in which you can add and share your favorite games, so that none of your friends miss the video games that you play the most.",
+    "SHOOTER": "Shooters",
+    "AVENTURA": "Adventure",
+    "COOPERATIVO": "Cooperative",
+    "MUSICAL": "Musical",
+    "ENLACES": "Helpful Links",
+    "CUENTA": "Your account",
+    "REGISTRATE": "Sign Up",
+    "PRINCIPAL": "Home",
+    "AYUDA": "Help",
+    "CONTACTO": "Contact",
+    "GRUPO": "Group 4"
+  }
+}

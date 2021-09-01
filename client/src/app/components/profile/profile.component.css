@@ -1,0 +1,10 @@
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+#viewport-posts {
+    height: 700px;
+    width: 100%;
+    text-align: left;
+}

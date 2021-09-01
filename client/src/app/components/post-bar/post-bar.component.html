@@ -1,0 +1,30 @@
+<div class="col-md-12 mt-4">
+  <div class="card mb-2 p-3" style="border-radius: 20px;">
+    <div class="">
+      <div class="form-group">
+        <input type="text" class="form-control" style="background: #7e7e7e; border-radius: 25px;"
+          [(ngModel)]="post.vch_postdescripcion" placeholder="¿En que videojuego piensas?" autofocus>
+      </div>
+      <div>
+        <hr size="2px" width="100%" noshade="noshade" />
+      </div>
+      <div class="row ">
+        <div class="col-4">
+          <button class="btn btn-info btn-block" (click)="publish()" style="border-radius: 20px;">
+            <i class="fas fa-upload mr-2"></i> Publicar
+          </button>
+        </div>
+        <div class="col-4">
+          <button type="button" class="btn btn-info btn-block" style="border-radius: 20px;">
+            <i class="fas fa-images mr-2"></i> Insertar
+          </button>
+        </div>
+        <div class="col-4">
+          <button type="button" class="btn btn-info btn-block" routerLink="/games/add" style="border-radius: 20px;">
+            <i class="fas fa-plus-circle mr-2"></i> Agregar Juego
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

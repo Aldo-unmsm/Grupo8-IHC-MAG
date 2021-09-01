@@ -1,0 +1,63 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <div class="container-fluid">
+      <a class="navbar-brand" *ngIf="user.boo_logsesion==true" routerLink="/games">My Amazing Games <i
+          class="fas fa-gamepad  ml-3"></i></a>
+      <a class="navbar-brand" *ngIf="user.boo_logsesion==false" routerLink="/welcome">My Amazing Games <i
+          class="fas fa-gamepad  ml-3"></i></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDarkDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              {{ "NAVIGATION.IDIOMA" | translate }}
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+              <li><a class="dropdown-item" (click)="CambiarIdiomaEs()">Español</a></li>
+              <li><a class="dropdown-item" (click)="CambiarIdiomaEn()">Ingles</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" *ngIf="user.boo_logsesion==false" routerLink="/welcome" routerLinkActive="active"><i
+                class="fas fa-door-open mx-2"></i> {{ "NAVIGATION.WELLCOME" |
+              translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" *ngIf="user.boo_logsesion==true" routerLink="/games" routerLinkActive="active"><i
+                class="fas fa-home mx-2"></i> {{ "NAVIGATION.INICIO" |
+              translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" *ngIf="user.boo_logsesion==false" routerLink="/signin" routerLinkActive="active"><i
+                class="fas fa-sign-in-alt mx-2"></i> {{ "NAVIGATION.INGRESAR" |
+              translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" *ngIf="user.boo_logsesion==true" routerLink="/profile" routerLinkActive="active"><i
+                class="far fa-user mx-2"></i> {{ "NAVIGATION.PERFIL" |
+              translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" *ngIf="user.boo_logsesion==false" routerLink="/signup" routerLinkActive="active"><i
+                class="fas fa-user-plus mx-2"></i> {{ "NAVIGATION.REGISTRARSE"
+              | translate }}</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" (click)="logout()" *ngIf="user.boo_logsesion==true" routerLink="/welcome"
+              routerLinkActive="active"><i class="fas fa-sign-out-alt mx-2"></i> {{ "NAVIGATION.SALIR" |
+              translate
+              }}</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
