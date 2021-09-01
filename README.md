@@ -7,7 +7,7 @@
  
  ## Cliente
  - Para observar el Cliente se debe entrar primero con el siguiente comando: `cd .\client\`
- - una ves entrado a la ruta anterior se debe ejecutar el siguiente comando: `npm i` el cual instalara los modulos de node y angular por parte del .\client\
+ - una vez entrado a la ruta anterior se debe ejecutar el siguiente comando: `npm i` el cual instalara los modulos de node y angular por parte del .\client\
  - luego que se instale los modulos, se debe ejecuatar el comando: `npm run start` el cual iniciara el servidor en `http://localhost:4200`
 
 # Client
