@@ -3,7 +3,7 @@
  ## Servidor
  - Para ejecutar el sistema se debe entrar primero con el siguiente comando: `cd .\server\`
  - una vez entrada a la ruta anterior se debe ejecutar el siguiente comando: `npm i` el cual instalara los modulos de node por parte del .\server\
- - luego que se instale los modulos, se debe ejecuatar el comando: `npm run dev` el cual iniciara el servidor en `http://localhost:3000` con la API de los juegos en `http://localhost:3000/api/games`
+ - luego que se instale los modulos, se debe ejecutar el comando: `npm run dev` el cual iniciara el servidor en `http://localhost:3000` con la API de los juegos en `http://localhost:3000/api/games`
  
  ## Cliente
  - Para observar el Cliente se debe entrar primero con el siguiente comando: `cd .\client\`
